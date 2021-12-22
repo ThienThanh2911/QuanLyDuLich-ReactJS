@@ -40,7 +40,7 @@ export default function Blog() {
 
                                 <p><i className="fa fa-user"></i> Thành &nbsp;|&nbsp; <i className="fa fa-calendar"></i> 15.08.2021 10:10 &nbsp;|&nbsp; <i className="fa fa-comments"></i>  15 comments</p>
 
-                                <p>Nội dung Blog</p>
+                                <p>${b.description}</p>
                                 <div className="main-button">
                                     <Link to={`/blog-details/${b.id}/`}>Đọc thêm</Link>
                                 </div><br></br>

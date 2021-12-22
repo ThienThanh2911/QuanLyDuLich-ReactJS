@@ -51,8 +51,6 @@ export default function PackageDetails() {
       }
 
     }, [changed])
-    console.log(tour)
-    console.log(comment)
     const addComment = async (event) => {
       event.preventDefault()
 
